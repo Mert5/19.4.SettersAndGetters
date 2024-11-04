@@ -56,7 +56,7 @@ int main(){
 
     // Modify our object
     cylinder1.set_base_radius(15);  // if you made these functions private in above,
-    cylinder1.set_height(5);        // you would get error to use them.
+    cylinder1.set_height(5);        // you would get error when you use them.
 
     std::cout << "new base_radius : " << cylinder1.get_base_radius() << std::endl;
     std::cout << "new height : " << cylinder1.get_height() << std::endl;
